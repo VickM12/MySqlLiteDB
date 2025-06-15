@@ -24,7 +24,7 @@ namespace MySqlLiteDB.Engine.Lexer
        Select, From, Where,
        Insert, Into, Values,
        Create, Table, Drop,
-       Update
+       Update, Join, Delete
     }
     public sealed record Token(TokenKind Kind, string Lexeme, int Position);
 }

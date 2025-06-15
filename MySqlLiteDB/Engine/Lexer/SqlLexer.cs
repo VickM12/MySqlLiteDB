@@ -107,6 +107,8 @@ namespace MySqlLiteDB.Engine.Lexer
             "table" => TokenKind.Table,
             "drop" => TokenKind.Drop,
             "update" => TokenKind.Update,
+            "delete" => TokenKind.Delete,
+            "join" => TokenKind.Join,
             _ => TokenKind.Identifier
         };
     };
